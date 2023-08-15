@@ -11,6 +11,6 @@ if(document.getElementsByName("e").length >= 1) {
   var eusers = ["alvin", "josue", "dylan"]
   var euser = document.getElementsByClassName("fa fa-user")[0].parentElement.innerText.replaceAll("  ", "").toLowerCase();
   eusers.forEach(eeuser => {
-      if(euser.include(eeuser)) return e()
+      if(euser.includes(eeuser)) return e()
   })
 }
